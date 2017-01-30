@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle rainbow-parens",
+        "command": "rainbow-parens:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "rainbow-parens",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "rainbow-parens:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
